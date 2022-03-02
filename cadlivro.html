@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Livro</title>
+    <link rel="stylesheet" href="css3.css" />
+    <script type="text/javascript" src="script3.js"></script>
+</head>
+
+<body>
+    <div id="nav">
+                
+    
+    
+    <section id="table3">
+        <form method="POST" id="newForm">
+            <div id="input-data">
+                <h1>Cadastro de Livros</h1>   
+                <input id="nomelivro" class="input-text" placeholder="Nome do livro" type="text" required /><br><br>
+                <input id="edicao" class="input-text" placeholder="Número de edição" type="number" required /><br><br>
+                <input id="autor" class="input-text" placeholder="Autor" type="text" required /><br><br>
+                <input id="reserva" class="input-text" placeholder="Status" type="text" required /><br><br>
+                <input class="input-btn" type="submit" value="Cadastrar" onclick="return adicionarTab()" /><br><br>
+                <input class="input-btn" type="submit" value="Editar" onclick="adicionarTab();"  /><br><br>
+            
+        </form>
+        <table id="myTable3">
+            <tr id="0">
+                <th>ID</th>
+                <th>Nome do livro</th>
+                <th>Edição</th>
+                <th>Autor</th>
+                <th>Reserva</th>
+                <th>Ação 1</th>
+                <th>Ação 2</th>
+            </tr>
+        </table>
+    </div>
+    </section>
+
+</body>
+
+</html>
